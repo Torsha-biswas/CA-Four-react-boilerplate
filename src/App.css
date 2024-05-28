@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.mode-toggle-button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

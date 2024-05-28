@@ -1,0 +1,48 @@
+.question-container {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .question-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: red;
+  }
+  
+  .options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option-button {
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background: none;
+    color: inherit; /* Inherit color from the parent container */
+    background-color: inherit; /* Inherit background color from the parent container */
+  }
+  
+  .option-button:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly darker background on hover */
+  }
+  
+  .highlight-buttons {
+    margin-top: 20px;
+  }
+  
+  .highlight-button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
